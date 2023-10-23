@@ -33,7 +33,10 @@ jobs:
         uses: thedoctor0/zip-release@09336613be18a8208dfa66bd57efafd9e2685657
         with:
           type: "zip"
-          filename: "../../${{env.zipFile}}" # make the zip file two directories up, since we start two directories in above
+          # Use only the root directory
+          directory: "$GITHUB_WORKSPACE"
+          # end of custom command
+          filename: "${{env.zipFile}}" # make the zip file two directories up, since we start two directories in above
           
       - run: -name \*.meta >> metaList
           
