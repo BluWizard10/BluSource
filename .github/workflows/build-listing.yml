@@ -1,7 +1,7 @@
 name: Build Repo Listing
 
 env:
-  CurrentPackageName: com.bluwizard.sdk
+  CurrentPackageName: net.bluwizard.source
   listPublishDirectory: Website
   pathToCi: ci
   
