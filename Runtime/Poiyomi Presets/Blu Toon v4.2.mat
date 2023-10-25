@@ -84,7 +84,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard/Shading/Toon v4.2
+    presetName: BluWizard's Presets/Source/Shading/Toon v4.2
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -1686,14 +1686,14 @@ Material:
     - _LightingCap: 2
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
-    - _LightingColorMode: 0
+    - _LightingColorMode: 3
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
     - _LightingDetailShadowStrengthB: 0
     - _LightingDetailShadowStrengthG: 0
     - _LightingDetailShadowStrengthR: 1
-    - _LightingDirectionMode: 0
+    - _LightingDirectionMode: 4
     - _LightingForceColorEnabled: 0
     - _LightingForcedColorThemeIndex: 0
     - _LightingGradientEnd: 0.5
