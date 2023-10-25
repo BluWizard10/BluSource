@@ -27,7 +27,7 @@ Material:
     _ClearCoatSpecularTint_isPreset: true
     _ClearCoatStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard/Clear Coat/Eye Specular for Opaque
+    presetName: BluWizard's Presets/Source/Clear Coat/Eye Specular for Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

@@ -22,7 +22,7 @@ Material:
     _LTCGI_DiffuseColor_isPreset: true
     _LTCGI_SpecularColor_isPreset: true
     isPreset: true
-    presetName: BluWizard/LTCGI/LTCGI Setup [Pro 8.2+]
+    presetName: BluWizard's Presets/Source/LTCGI/LTCGI Setup [Pro 8.2+]
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
