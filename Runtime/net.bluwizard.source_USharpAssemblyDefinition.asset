@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5136146375e9a0a498a72a0091b40cc1, type: 3}
-  m_Name: BluSource.USharpDefinition
+  m_Name: net.bluwizard.source_USharpAssemblyDefinition
   m_EditorClassIdentifier: 
   sourceAssembly: {fileID: 5897886265953266890, guid: 9be223f46a2f20441b93c414fde06460,
     type: 3}
