@@ -1,7 +1,7 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard Source",
-  "version": "1.1.7",
+  "version": "1.1.9",
   "description": "Essential stuff and useful gimmicks for both Avatar and World Creation.",
   "url": "https://gitlab.com/BluWizard10/blusource.git",
   "gitDependencies": {},
