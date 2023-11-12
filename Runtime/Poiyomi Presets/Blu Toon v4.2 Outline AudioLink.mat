@@ -67,10 +67,6 @@ Material:
     _OutlineSpace_isPreset: true
     _OutlineTintMix_isPreset: true
     _OutlinesMaxDistance_isPreset: true
-    _PPEmissionMultiplier_isPreset: true
-    _PPFinalColorMultiplier_isPreset: true
-    _PPLightingAddition_isPreset: true
-    _PPLightingMultiplier_isPreset: true
     _PoiUTSStyleOutlineBlend_isPreset: true
     _RimApplyGlobalMaskIndex_isPreset: true
     _RimBaseColorMix_isPreset: true
@@ -2104,7 +2100,7 @@ Material:
     - _PBRSplitMaskStochastic: 0
     - _PPBrightness: 1
     - _PPContrast: 1
-    - _PPEmissionMultiplier: 1.4
+    - _PPEmissionMultiplier: 1
     - _PPFinalColorMultiplier: 1
     - _PPHDR: 0
     - _PPHelp: 0

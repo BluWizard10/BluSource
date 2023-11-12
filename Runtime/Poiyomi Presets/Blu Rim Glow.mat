@@ -1877,7 +1877,7 @@ Material:
     - _PBRSplitMaskStochastic: 0
     - _PPBrightness: 1
     - _PPContrast: 1
-    - _PPEmissionMultiplier: 1.4
+    - _PPEmissionMultiplier: 1
     - _PPFinalColorMultiplier: 1
     - _PPHDR: 0
     - _PPHelp: 0

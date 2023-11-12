@@ -55,10 +55,6 @@ Material:
     _MochieMetallicMaps_texPack_r_fallback: 1
     _MochieMetallicMaps_texPack_r_guid: c6b8796c2c16ff442a2344b51f4aefe2
     _MochieMetallicMaps_texPack_r_inverted: False
-    _PPEmissionMultiplier_isPreset: true
-    _PPFinalColorMultiplier_isPreset: true
-    _PPLightingAddition_isPreset: true
-    _PPLightingMultiplier_isPreset: true
     isPreset: true
     presetName: BluWizard's Presets/Source/Emissions/Color Emissive Sweet Spot
   disabledShaderPasses: []
@@ -945,10 +941,10 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 1.4
-    - _EmissionStrength1: 1.4
-    - _EmissionStrength2: 1.4
-    - _EmissionStrength3: 1.4
+    - _EmissionStrength: 1.6
+    - _EmissionStrength1: 1.6
+    - _EmissionStrength2: 1.6
+    - _EmissionStrength3: 1.6
     - _EmissiveBlink_Max: 1
     - _EmissiveBlink_Max1: 1
     - _EmissiveBlink_Max2: 1
@@ -1316,7 +1312,7 @@ Material:
     - _PBRSplitMaskSample: 0
     - _PPBrightness: 1
     - _PPContrast: 1
-    - _PPEmissionMultiplier: 1.4
+    - _PPEmissionMultiplier: 1
     - _PPFinalColorMultiplier: 1
     - _PPHDR: 0
     - _PPHelp: 0
