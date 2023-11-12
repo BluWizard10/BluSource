@@ -1776,12 +1776,12 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 7
+    - _LightingAdditiveLimit: 8
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0
     - _LightingAdditiveType: 3
-    - _LightingCap: 2
+    - _LightingCap: 1.5
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
     - _LightingColorMode: 3
@@ -3124,7 +3124,7 @@ Material:
     - _AudioLinkFlipbookScale: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkOutlineColor: {r: 0, g: 0.57254905, b: 0.8509804, a: 1}
     - _AudioLinkOutlineColorMod: {r: 0, g: 1, b: 0, a: 0}
-    - _AudioLinkOutlineEmission: {r: 0, g: 10, b: 0, a: 0}
+    - _AudioLinkOutlineEmission: {r: 0, g: 14, b: 0, a: 0}
     - _AudioLinkOutlineSize: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkPathEmissionAddA: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkPathEmissionAddB: {r: 0, g: 0, b: 0, a: 1}
