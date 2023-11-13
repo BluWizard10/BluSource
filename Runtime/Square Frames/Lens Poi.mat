@@ -1686,7 +1686,7 @@ Material:
     - _LightingAddDetailShadowStrengthG: 0
     - _LightingAddDetailShadowStrengthR: 1
     - _LightingAdditiveCastedShadows: 1
-    - _LightingAdditiveEnable: 1
+    - _LightingAdditiveEnable: 0
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
     - _LightingAdditiveLimit: 1
@@ -1721,7 +1721,7 @@ Material:
     - _LightingShadowMaskStrengthG: 0
     - _LightingShadowMaskStrengthR: 1
     - _LightingShadowMasksUV: 0
-    - _LightingVertexLightingEnabled: 1
+    - _LightingVertexLightingEnabled: 0
     - _LightingViewDirOffsetPitch: 0
     - _LightingViewDirOffsetYaw: 0
     - _LightingWrappedNormalization: 0
