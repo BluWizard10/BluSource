@@ -55,6 +55,10 @@ Material:
     _MochieMetallicMaps_texPack_r_fallback: 1
     _MochieMetallicMaps_texPack_r_guid: c6b8796c2c16ff442a2344b51f4aefe2
     _MochieMetallicMaps_texPack_r_inverted: False
+    _PPEmissionMultiplier_isPreset: true
+    _PPFinalColorMultiplier_isPreset: true
+    _PPLightingAddition_isPreset: true
+    _PPLightingMultiplier_isPreset: true
     isPreset: true
     presetName: BluWizard's Presets/Source/Emissions/Color Emissive Sweet Spot
   disabledShaderPasses: []
