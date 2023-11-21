@@ -52,7 +52,6 @@ Material:
     _LightingMulitlayerNonLinear_isPreset: true
     _LightingVertexLightingEnabled_isPreset: true
     _LineColor_isPreset: true
-    _LineWidth_isPreset: true
     _MultilayerMathBlurMap_isPreset: true
     _OutlineALColorEnabled_isPreset: true
     _OutlineAlphaDistanceFade_isPreset: true
@@ -68,6 +67,8 @@ Material:
     _OutlineTintMix_isPreset: true
     _OutlinesMaxDistance_isPreset: true
     _PoiUTSStyleOutlineBlend_isPreset: true
+    _RimApplyAlphaBlend_isPreset: true
+    _RimApplyAlpha_isPreset: true
     _RimApplyGlobalMaskIndex_isPreset: true
     _RimBaseColorMix_isPreset: true
     _RimBlendMode_isPreset: true
@@ -815,9 +816,9 @@ Material:
     - _AudioLinkFlipbookFrameBand: 0
     - _AudioLinkFlipbookScaleBand: 0
     - _AudioLinkHelp: 0
-    - _AudioLinkOutlineColorBand: 2
-    - _AudioLinkOutlineEmissionBand: 2
-    - _AudioLinkOutlineSizeBand: 2
+    - _AudioLinkOutlineColorBand: 0
+    - _AudioLinkOutlineEmissionBand: 0
+    - _AudioLinkOutlineSizeBand: 0
     - _AudioLinkPathEmissionAddBandA: 0
     - _AudioLinkPathEmissionAddBandB: 0
     - _AudioLinkPathEmissionAddBandG: 0

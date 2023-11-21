@@ -43,7 +43,6 @@ Material:
     _LightingMulitlayerNonLinear_isPreset: true
     _LightingVertexLightingEnabled_isPreset: true
     _LineColor_isPreset: true
-    _LineWidth_isPreset: true
     _MultilayerMathBlurMap_isPreset: true
     _OutlineAlphaDistanceFade_isPreset: true
     _OutlineClipAtZeroWidth_isPreset: true
