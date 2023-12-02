@@ -2070,7 +2070,7 @@ Material:
     - _RefractionChromaticAberattion: 1
     - _RefractionEnabled: 1
     - _RefractionFalloff: 20
-    - _RefractionIndex: 1.1
+    - _RefractionIndex: 1.04
     - _RenderingReduceClipDistance: 0
     - _RgbAlphaGlobalMaskBlendType: 2
     - _RgbAlphaGlobalMaskChannel: 0
