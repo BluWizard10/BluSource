@@ -1,13 +1,13 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard Source",
-  "version": "1.1.18-alpha.1",
+  "version": "1.1.18-alpha.2",
   "description": "Essential stuff and useful gimmicks for both Avatar and World Creation.",
   "url": "https://github.com/BluWizard10/BluSource.git",
   "gitDependencies": {},
   "vpmDependencies": {
     "net.bluwizard.poipresets": "^1.2.0",
-    "com.vrchat.avatars": "3.5.x"
+    "com.vrchat.avatars": "3.5"
   },
   "author": {
     "name": "BluWizard",
