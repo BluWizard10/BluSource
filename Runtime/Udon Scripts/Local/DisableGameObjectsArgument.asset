@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: DisableGameObjectsArgument
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: c937e8402fe3c6d4689f88420ff3c272,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 2a8b031176b96b341b046d6863d5034d,
     type: 2}
   udonAssembly: 
   assemblyError: 
