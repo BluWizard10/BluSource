@@ -1,7 +1,8 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard Source",
-  "version": "1.2.0",
+  "version": "1.2.1",
+  "unity": "2022.3",
   "description": "Essential stuff and useful gimmicks for both Avatar and World Creation.",
   "url": "https://github.com/BluWizard10/BluSource.git",
   "gitDependencies": {},
@@ -18,6 +19,5 @@
   },
   "legacyPackages": [
     "com.bluwizard.sdk"
-  ],
-  "unity": "2022.3"
+  ]
 }
