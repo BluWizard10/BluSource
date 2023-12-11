@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6724373811150957751
+--- !u!1 &7857386946168166976
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3195565952014459717}
-  - component: {fileID: 2384612352986593996}
+  - component: {fileID: 3760308056936223491}
+  - component: {fileID: 1069933473195345490}
   m_Layer: 0
   m_Name: Avatar Optimizations VRCF
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3195565952014459717
+--- !u!4 &3760308056936223491
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6724373811150957751}
+  m_GameObject: {fileID: 7857386946168166976}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,13 +32,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2384612352986593996
+--- !u!114 &1069933473195345490
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6724373811150957751}
+  m_GameObject: {fileID: 7857386946168166976}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
@@ -50,6 +50,7 @@ MonoBehaviour:
     - rid: 6809856300671303680
     - rid: 6809856300671303681
     - rid: 6809856300671303682
+    - rid: 6809856302112833597
   somethingIsBroken: 0
   references:
     version: 2
@@ -67,3 +68,9 @@ MonoBehaviour:
       type: {class: BoundingBoxFix2, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
+    - rid: 6809856302112833597
+      type: {class: MmdCompatibility, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        disableLayers: []
+        globalParam: 
