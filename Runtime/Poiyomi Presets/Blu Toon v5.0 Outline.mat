@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blu Toon v5.0 Clothing
+  m_Name: Blu Toon v5.0 Outline
   m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,9 +24,11 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
+    RenderType: Opaque
     VRCFallback: Toon
+    _AudioLinkAnimToggleAnimated: 1
     _AudioLinkAnimToggle_isPreset: true
     _AudioLinkOutlineColorBand_isPreset: true
     _AudioLinkOutlineColorMod_isPreset: true
@@ -35,12 +37,6 @@ Material:
     _AudioLinkOutlineEmission_isPreset: true
     _AudioLinkOutlineSizeBand_isPreset: true
     _AudioLinkOutlineSize_isPreset: true
-    _AudioLinkRimBrightnessAdd_isPreset: true
-    _AudioLinkRimBrightnessBand_isPreset: true
-    _AudioLinkRimEmissionAdd_isPreset: true
-    _AudioLinkRimEmissionBand_isPreset: true
-    _AudioLinkRimWidthAdd_isPreset: true
-    _AudioLinkRimWidthBand_isPreset: true
     _DisableDirectionalInAdd_isPreset: true
     _EnableAudioLink_isPreset: true
     _EnableOutlines_isPreset: true
@@ -125,7 +121,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Source/9.0/Shading/Toon v5.0 Clothing
+    presetName: BluWizard's Presets/Source/9.0/Shading/Toon v5.0 Outline
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -1781,7 +1777,7 @@ Material:
     - _LightingIgnoreAmbientColor: 0.2
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0.1
+    - _LightingMinLightBrightness: 0.4
     - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 1
     - _LightingMonochromatic: 0.5
@@ -2837,7 +2833,7 @@ Material:
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
-    - m_start_RimAudioLink: 1
+    - m_start_RimAudioLink: 0
     - m_start_SphericalDissolve: 0
     - m_start_StencilPassBackOptions: 0
     - m_start_StencilPassFrontOptions: 0
@@ -3217,7 +3213,7 @@ Material:
     - s_start_StylizedSpecularLayer1: 1
     - s_start_VertAL: 0
     - s_start_VertexBarrelMode: 0
-    - s_start_VertexColors: 1
+    - s_start_VertexColors: 0
     - s_start_VertexGlitchMirror: 0
     - s_start_VertexGlitchTexture: 1
     - s_start_VertexManipulationHeight: 1

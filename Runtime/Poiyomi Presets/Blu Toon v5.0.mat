@@ -13,7 +13,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
-  - POI_AUDIOLINK
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
   - _LIGHTINGMODE_MULTILAYER_MATH
@@ -24,17 +23,10 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
+    RenderType: Opaque
     VRCFallback: Toon
-    _AudioLinkAnimToggle_isPreset: true
-    _AudioLinkOutlineColorBand_isPreset: true
-    _AudioLinkOutlineColorMod_isPreset: true
-    _AudioLinkOutlineColor_isPreset: true
-    _AudioLinkOutlineEmissionBand_isPreset: true
-    _AudioLinkOutlineEmission_isPreset: true
-    _AudioLinkOutlineSizeBand_isPreset: true
-    _AudioLinkOutlineSize_isPreset: true
     _AudioLinkRimBrightnessAdd_isPreset: true
     _AudioLinkRimBrightnessBand_isPreset: true
     _AudioLinkRimEmissionAdd_isPreset: true
@@ -42,8 +34,6 @@ Material:
     _AudioLinkRimWidthAdd_isPreset: true
     _AudioLinkRimWidthBand_isPreset: true
     _DisableDirectionalInAdd_isPreset: true
-    _EnableAudioLink_isPreset: true
-    _EnableOutlines_isPreset: true
     _EnableRimLighting_isPreset: true
     _Is_NormalMapToRimLight_isPreset: true
     _LightingAdditiveCastedShadows_isPreset: true
@@ -67,22 +57,7 @@ Material:
     _LightingMonochromatic_isPreset: true
     _LightingMulitlayerNonLinear_isPreset: true
     _LightingVertexLightingEnabled_isPreset: true
-    _LineColor_isPreset: true
     _MultilayerMathBlurMap_isPreset: true
-    _OutlineALColorEnabled_isPreset: true
-    _OutlineAlphaDistanceFade_isPreset: true
-    _OutlineClipAtZeroWidth_isPreset: true
-    _OutlineEmission_isPreset: true
-    _OutlineExpansionMode_isPreset: true
-    _OutlineFixWidth_isPreset: true
-    _OutlineFixedSize_isPreset: true
-    _OutlineHueShift_isPreset: true
-    _OutlineLit_isPreset: true
-    _OutlineShadowStrength_isPreset: true
-    _OutlineSpace_isPreset: true
-    _OutlineTintMix_isPreset: true
-    _OutlinesMaxDistance_isPreset: true
-    _PoiUTSStyleOutlineBlend_isPreset: true
     _RimApplyAlphaBlend_isPreset: true
     _RimApplyAlpha_isPreset: true
     _RimApplyGlobalMaskIndex_isPreset: true
@@ -1323,7 +1298,7 @@ Material:
     - _EmissiveScroll_Width3: 10
     - _EnableALDecal: 0
     - _EnableAniso: 0
-    - _EnableAudioLink: 1
+    - _EnableAudioLink: 0
     - _EnableDepthBulge: 0
     - _EnableDepthRimLighting: 0
     - _EnableDissolve: 0
@@ -1341,7 +1316,7 @@ Material:
     - _EnableGITDEmission2: 0
     - _EnableGITDEmission3: 0
     - _EnableMirrorOptions: 0
-    - _EnableOutlines: 1
+    - _EnableOutlines: 0
     - _EnablePathing: 0
     - _EnableRim2Lighting: 0
     - _EnableRimLighting: 1
@@ -2024,7 +1999,7 @@ Material:
     - _OffsetFactor: 0
     - _OffsetUnits: 0
     - _Offset_Z: 0
-    - _OutlineALColorEnabled: 1
+    - _OutlineALColorEnabled: 0
     - _OutlineAlphaDistanceFade: 0
     - _OutlineAlphaDistanceFadeMax: 0
     - _OutlineAlphaDistanceFadeMaxAlpha: 1
@@ -2622,8 +2597,8 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_AudioLinkCategory: 1
-    - m_OutlineCategory: 1
+    - m_AudioLinkCategory: 0
+    - m_OutlineCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0
@@ -3240,7 +3215,7 @@ Material:
     - s_start_matcap2ApplyToAlpha: 0
     - s_start_matcap3ApplyToAlpha: 0
     - s_start_matcapApplyToAlpha: 0
-    - s_start_outline_al_color: 1
+    - s_start_outline_al_color: 0
     - s_start_vertexRounding: 0
     - s_start_vertexRoundingAL: 0
     - shader_is_using_thry_editor: 69
