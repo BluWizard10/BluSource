@@ -2,8 +2,7 @@
     "name": "net.bluwizard.source.Editor",
     "rootNamespace": "",
     "references": [
-        "net.bluwizard.source",
-        "Unity.Recorder.Editor"
+        "net.bluwizard.source"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
