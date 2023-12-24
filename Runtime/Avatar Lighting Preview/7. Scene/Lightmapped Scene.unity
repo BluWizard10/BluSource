@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Avatar Lighting Demo
       objectReference: {fileID: 0}
+    - target: {fileID: 2726506717334344278, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalPosition.x

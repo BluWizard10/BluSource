@@ -1,6 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!181963792 &-3081428091504935726
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5537212fe2c4414c9a0cdd7ba0728908, type: 3}
+  m_Name: VRCThumbnail Image Sequence
+  m_EditorClassIdentifier: 
+  m_Model: {fileID: 7367612358030093103}
+  m_RecorderPresets:
+  - {fileID: 341686891955621832}
+--- !u!181963792 &341686891955621832
 Preset:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31,7 +46,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: take
-    value: 6
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: captureEveryNthFrame
@@ -55,7 +70,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: fileNameGenerator.m_FileName
-    value: VRCThumbnail_<Project>_<Date>_<Time>
+    value: VRCThumbnail_<Project>_<Date>_<Time>_<Take>
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Version
@@ -374,7 +389,7 @@ Preset:
     value: 1
     objectReference: {fileID: 0}
   m_ExcludedProperties: []
---- !u!181963792 &-1742028221687344909
+--- !u!181963792 &7367612358030093103
 Preset:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,18 +459,3 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   m_ExcludedProperties: []
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5537212fe2c4414c9a0cdd7ba0728908, type: 3}
-  m_Name: VRCThumbnail Image Sequence
-  m_EditorClassIdentifier: 
-  m_Model: {fileID: -1742028221687344909}
-  m_RecorderPresets:
-  - {fileID: -3081428091504935726}

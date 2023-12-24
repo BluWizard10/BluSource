@@ -55,7 +55,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: fileNameGenerator.m_FileName
-    value: VRCThumbnail_<Project>_<Date>_<Time>
+    value: VRCThumbnail_<Project>_<Date>_<Time>_<Take>
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Version
