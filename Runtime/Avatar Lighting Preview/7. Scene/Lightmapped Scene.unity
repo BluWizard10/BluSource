@@ -125,7 +125,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &9199921125166765398
+--- !u!1001 &2139295951478809092
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -133,60 +133,60 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 2726506717334344278, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_Name
+      value: Avatar Lighting Demo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2631646111144282642, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+    - target: {fileID: 8337055061694887000, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094385934236597498, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
-        type: 3}
-      propertyPath: m_Name
-      value: Avatar Lighting Demo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -197,4 +197,4 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 9199921125166765398}
+  - {fileID: 2139295951478809092}
