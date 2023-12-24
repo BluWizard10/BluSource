@@ -60,7 +60,7 @@ Material:
     _PPLightingAddition_isPreset: true
     _PPLightingMultiplier_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Source/Emissions/Color Emissive Sweet Spot
+    presetName: BluWizard's Presets/Source/8.1/Emissions/Color Emissive Sweet Spot
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

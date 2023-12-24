@@ -28,7 +28,7 @@ Material:
     _PBRSplitMaskSample_isPreset: true
     _Specular2ndLayer_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Source/Reflections & Specular/Packed Maps Setup
+    presetName: BluWizard's Presets/Source/8.1/Reflections & Specular/Packed Maps Setup
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

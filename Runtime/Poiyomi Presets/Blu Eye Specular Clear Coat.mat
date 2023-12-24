@@ -35,7 +35,7 @@ Material:
     _Mode_isPreset: true
     _ZWrite_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Source/Clear Coat/Eye Specular
+    presetName: BluWizard's Presets/Source/8.1/Clear Coat/Eye Specular
     shader_master_label_isPreset: true
   disabledShaderPasses: []
   m_SavedProperties:

@@ -96,7 +96,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Source/Shading/Toon v4.2 Outline
+    presetName: BluWizard's Presets/Source/8.2/Shading/Toon v4.2 Outline
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
