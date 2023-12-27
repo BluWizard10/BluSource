@@ -1,9 +1,9 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard Source",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "unity": "2022.3",
-  "description": "Essential stuff and useful gimmicks for both Avatar and World Creation.",
+  "description": "BluWizard's Private Package of Esssential Stuff and Gimmicks for both VRChat World and Avatar Creation.",
   "url": "https://github.com/BluWizard10/BluSource.git",
   "gitDependencies": {},
   "vpmDependencies": {
@@ -15,7 +15,9 @@
     "url": "https://bluwizard.net"
   },
   "dependencies": {
-    "com.unity.postprocessing": "3.2.2"
+    "com.unity.postprocessing": "3.2.2",
+    "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.ide.vscode": "1.2.5"
   },
   "legacyPackages": [
     "com.bluwizard.sdk"
