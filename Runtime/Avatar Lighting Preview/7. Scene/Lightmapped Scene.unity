@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Avatar Lighting Demo
       objectReference: {fileID: 0}
+    - target: {fileID: 5684184683402368612, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
