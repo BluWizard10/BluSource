@@ -133,6 +133,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2736423925672316327, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083012688519313490, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255805867403061144, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537736714000247922, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4853601365788781699, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -189,6 +209,16 @@ PrefabInstance:
       value: Avatar Lighting Demo
       objectReference: {fileID: 0}
     - target: {fileID: 5684184683402368612, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209414339301378163, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9140726640648741805, guid: ebab2d0ee63f28f49a3c1900ab34bf75,
         type: 3}
       propertyPath: m_IsActive
       value: 1

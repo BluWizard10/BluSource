@@ -1,13 +1,14 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard Source",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "unity": "2022.3",
   "description": "BluWizard's Private Package of Esssential Stuff and Gimmicks for both VRChat World and Avatar Creation.",
   "url": "https://github.com/BluWizard10/BluSource.git",
   "gitDependencies": {},
   "vpmDependencies": {
-    "net.bluwizard.poipresets": "^1.2.0"
+    "net.bluwizard.poipresets": "^1.2.0",
+    "net.bluwizard.hierarchy": "^0.1.0"
   },
   "author": {
     "name": "BluWizard",
