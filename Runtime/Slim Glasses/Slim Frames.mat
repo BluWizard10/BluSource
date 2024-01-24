@@ -1678,7 +1678,7 @@ Material:
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
-    - _LightingMirrorVertexLightingEnabled: 0
+    - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 5
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
