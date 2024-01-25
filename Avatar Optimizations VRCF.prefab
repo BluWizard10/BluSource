@@ -46,16 +46,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.677.0
+  vrcfuryVersion: 1.707.0
   config:
     features:
     - rid: 6809856300671303680
+    - rid: 3812398806554902531
     - rid: 6809856300671303682
     - rid: 6809856302112833597
   somethingIsBroken: 0
   references:
     version: 2
     RefIds:
+    - rid: 3812398806554902531
+      type: {class: BlendshapeOptimizer, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        keepMmdShapes: 0
     - rid: 6809856300671303680
       type: {class: AnchorOverrideFix2, ns: VF.Model.Feature, asm: VRCFury}
       data:

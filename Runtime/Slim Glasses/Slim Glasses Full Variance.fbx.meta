@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc0821c493004764686a890fa3d9e4ec
+guid: 9a003a3092e09454ab6db9ebc0be2925
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,15 +7,15 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Square Frame.001
-    second: {fileID: 2100000, guid: 40347942812567c4fb95f3e7cae05bf3, type: 2}
+      name: Slim Frames
+    second: {fileID: 2100000, guid: 572836cabf420af489db1d25a6a96510, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Square Lens.001
-    second: {fileID: 2100000, guid: 668287993d4ad00499b4f9eec275432d, type: 2}
+      name: Slim Lens
+    second: {fileID: 2100000, guid: e69f30be1f4ea2c46a53ecc5b96ee89f, type: 2}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -55,7 +55,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 0
+    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -73,7 +73,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -110,9 +110,9 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
-  importBlendShapeDeformPercent: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

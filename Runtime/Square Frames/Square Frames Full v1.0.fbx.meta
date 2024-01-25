@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Square Lens.001
-    second: {fileID: 2100000, guid: fabdb3ed211f1d346b6ad684cc2535e0, type: 2}
+    second: {fileID: 2100000, guid: 668287993d4ad00499b4f9eec275432d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
