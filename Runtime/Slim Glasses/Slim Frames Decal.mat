@@ -7,12 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slim Frames
+  m_Name: Slim Frames Decal
   m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - GEOM_TYPE_BRANCH
+  - GEOM_TYPE_BRANCH_DETAIL
   - MOCHIE_PBR
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_REALISTIC
@@ -25,6 +27,7 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
+    RenderType: Opaque
     VRCFallback: Toon
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -104,11 +107,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1b081f7461464504685d82bded2afc96, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1b081f7461464504685d82bded2afc96, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture2:
@@ -929,7 +932,7 @@ Material:
     - _Decal3OverrideAlphaMode: 0
     - _Decal3TPSMaskStrength: 1
     - _DecalBlendAlpha: 1
-    - _DecalBlendAlpha1: 1
+    - _DecalBlendAlpha1: 0.5
     - _DecalBlendAlpha2: 1
     - _DecalBlendAlpha3: 1
     - _DecalBlendType: 0
@@ -944,8 +947,8 @@ Material:
     - _DecalEmissionStrength1: 0
     - _DecalEmissionStrength2: 0
     - _DecalEmissionStrength3: 0
-    - _DecalEnabled: 0
-    - _DecalEnabled1: 0
+    - _DecalEnabled: 1
+    - _DecalEnabled1: 1
     - _DecalEnabled2: 0
     - _DecalEnabled3: 0
     - _DecalHueShift: 0
@@ -965,8 +968,8 @@ Material:
     - _DecalOverrideAlpha1: 0
     - _DecalOverrideAlpha2: 0
     - _DecalOverrideAlpha3: 0
-    - _DecalRotation: 0
-    - _DecalRotation1: 0
+    - _DecalRotation: 90
+    - _DecalRotation1: 90
     - _DecalRotation2: 0
     - _DecalRotation3: 0
     - _DecalRotationCTALBand0: 0
@@ -2669,15 +2672,15 @@ Material:
     - m_start_CenterOutDissolve: 0
     - m_start_ColorAdjust: 0
     - m_start_CubeMap: 0
-    - m_start_Decal0: 0
+    - m_start_Decal0: 1
     - m_start_Decal0AudioLink: 0
-    - m_start_Decal1: 0
+    - m_start_Decal1: 1
     - m_start_Decal1AudioLink: 0
     - m_start_Decal2: 0
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
-    - m_start_DecalSection: 0
+    - m_start_DecalSection: 1
     - m_start_DepthBulge: 0
     - m_start_DetailOptions: 0
     - m_start_DistortionAudioLink: 0
@@ -3277,12 +3280,12 @@ Material:
     - _DecalColor2: {r: 1, g: 1, b: 1, a: 1}
     - _DecalColor3: {r: 1, g: 1, b: 1, a: 1}
     - _DecalMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _DecalPosition1: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DecalPosition: {r: 0.0305, g: 0.11, b: 0, a: 0}
+    - _DecalPosition1: {r: 0.0955, g: 0.51, b: 0, a: 0}
     - _DecalPosition2: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _DecalPosition3: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _DecalScale: {r: 1, g: 1, b: 1, a: 0}
-    - _DecalScale1: {r: 1, g: 1, b: 1, a: 0}
+    - _DecalScale: {r: 0.17, g: 0.17, b: 1, a: 0}
+    - _DecalScale1: {r: 0.17, g: 0.17, b: 1, a: 0}
     - _DecalScale2: {r: 1, g: 1, b: 1, a: 0}
     - _DecalScale3: {r: 1, g: 1, b: 1, a: 0}
     - _DecalSideOffset: {r: 0, g: 0, b: 0, a: 0}

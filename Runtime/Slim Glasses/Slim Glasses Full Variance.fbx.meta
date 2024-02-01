@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Slim Frames
-    second: {fileID: 2100000, guid: 572836cabf420af489db1d25a6a96510, type: 2}
+    second: {fileID: 2100000, guid: b790a4a732db3cd4cb9a45c60090d008, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b76b22a1061d3be47b2b674905d28caa
+guid: e25a2eee1ecc08049bdab7d71443e38b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Slim Glasses
-    second: {fileID: 2100000, guid: b790a4a732db3cd4cb9a45c60090d008, type: 2}
+      name: Slim Frames
+    second: {fileID: 2100000, guid: 76182b441aeb17f42a6fc92ddf12588a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

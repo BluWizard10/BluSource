@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 400f10ce06436464e8777ecedb1c9f7b
+guid: 115bec692dff84a4182d14f12d242b40
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: FloorCol
-    second: {fileID: 2100000, guid: b42aecdc70262db41b6c1e3c98a1c2d3, type: 2}
+      name: Slim Frames
+    second: {fileID: 2100000, guid: 76182b441aeb17f42a6fc92ddf12588a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slim Lens
+    second: {fileID: 2100000, guid: e69f30be1f4ea2c46a53ecc5b96ee89f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +42,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -79,7 +84,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
