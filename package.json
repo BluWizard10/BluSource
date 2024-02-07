@@ -6,9 +6,7 @@
   "description": "BluWizard's Private Package of Esssential Stuff and Gimmicks that Blu uses across their projects.",
   "url": "https://github.com/BluWizard10/BluSource.git",
   "gitDependencies": {},
-  "vpmDependencies": {
-    "net.bluwizard.poipresets": "^1.5.0"
-  },
+  "vpmDependencies": {},
   "author": {
     "name": "BluWizard",
     "email": "17975114+BluWizard10@users.noreply.github.com",
