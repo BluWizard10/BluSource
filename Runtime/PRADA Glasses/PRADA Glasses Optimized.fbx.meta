@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PRADA Lens
-    second: {fileID: 2100000, guid: f00051449697f9d4c81701bc86c71c93, type: 2}
+    second: {fileID: 2100000, guid: 3fcece6fb1227a54ba0dbfbdc91736d5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
