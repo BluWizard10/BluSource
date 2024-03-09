@@ -9,7 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3760308056936223491}
-  - component: {fileID: 1069933473195345490}
+  - component: {fileID: -8134769062835651707}
+  - component: {fileID: 3906264030571341496}
+  - component: {fileID: 5218954289805191160}
+  - component: {fileID: 3341415660705943030}
+  - component: {fileID: 162093856198377689}
   m_Layer: 0
   m_Name: Avatar Optimizations VRCF
   m_TagString: Untagged
@@ -28,11 +32,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1069933473195345490
+--- !u!114 &-8134769062835651707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,33 +48,128 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
+  version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.707.0
-  config:
-    features:
-    - rid: 6809856300671303680
-    - rid: 3812398806554902531
-    - rid: 6809856300671303682
-    - rid: 6809856302112833597
+  vrcfuryVersion: 1.811.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5949029867649761280
   references:
     version: 2
     RefIds:
-    - rid: 3812398806554902531
+    - rid: 5949029867649761280
+      type: {class: AnchorOverrideFix2, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+--- !u!114 &3906264030571341496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7857386946168166976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.811.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5949029867649761282
+  references:
+    version: 2
+    RefIds:
+    - rid: 5949029867649761282
+      type: {class: BoundingBoxFix2, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+--- !u!114 &5218954289805191160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7857386946168166976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.811.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5949029867649761284
+  references:
+    version: 2
+    RefIds:
+    - rid: 5949029867649761284
+      type: {class: FixWriteDefaults, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        mode: 0
+--- !u!114 &3341415660705943030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7857386946168166976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.811.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5949029867649761285
+  references:
+    version: 2
+    RefIds:
+    - rid: 5949029867649761285
       type: {class: BlendshapeOptimizer, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
         keepMmdShapes: 0
-    - rid: 6809856300671303680
-      type: {class: AnchorOverrideFix2, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 0
-    - rid: 6809856300671303682
-      type: {class: BoundingBoxFix2, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 0
-    - rid: 6809856302112833597
+--- !u!114 &162093856198377689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7857386946168166976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.811.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5949029867649761286
+  references:
+    version: 2
+    RefIds:
+    - rid: 5949029867649761286
       type: {class: MmdCompatibility, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
