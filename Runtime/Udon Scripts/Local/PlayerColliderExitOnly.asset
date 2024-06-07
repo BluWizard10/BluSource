@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: PlayerColliderExitOnly
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: c7df11adf38c5f54a912eb54d597eaa7,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 1be50d137918fe347baac2f2b77941fa,
     type: 2}
   udonAssembly: 
   assemblyError: 
