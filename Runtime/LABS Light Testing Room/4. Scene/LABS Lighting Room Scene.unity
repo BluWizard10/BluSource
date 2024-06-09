@@ -5222,21 +5222,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7034677079108052696}
     m_Modifications:
-    - target: {fileID: 686825248035822628, guid: 01ce120ca42a9864ab0ad1f3f8c8cfc2,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 686825248035822628, guid: 01ce120ca42a9864ab0ad1f3f8c8cfc2,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1554341460936154778, guid: 01ce120ca42a9864ab0ad1f3f8c8cfc2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2407886219136527328, guid: 01ce120ca42a9864ab0ad1f3f8c8cfc2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5291,16 +5276,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VRC Preview
-      objectReference: {fileID: 0}
-    - target: {fileID: 4998653920877105233, guid: 01ce120ca42a9864ab0ad1f3f8c8cfc2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5884676193180708999, guid: 01ce120ca42a9864ab0ad1f3f8c8cfc2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
