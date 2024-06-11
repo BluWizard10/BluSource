@@ -15,7 +15,10 @@ Material:
   - BSSBLOOMFOGTYPE_HEIGHT
   - GEOM_TYPE_BRANCH
   - GEOM_TYPE_BRANCH_DETAIL
+  - GEOM_TYPE_FROND
   - MOCHIE_PBR
+  - POI_GLOBALMASK_TEXTURES
+  - VIGNETTE
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_REALISTIC
   - _RIM2STYLE_POIYOMI
@@ -106,7 +109,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture:
-        m_Texture: {fileID: 2800000, guid: 89c06f498b377654398650bb2576231a, type: 3}
+        m_Texture: {fileID: 2800000, guid: cf4bf47e8c7525f489bbd687538db472, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture1:
@@ -114,7 +117,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 89c06f498b377654398650bb2576231a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture3:
@@ -246,7 +249,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlobalMaskTexture0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: be08f88e7e8e1be46a96847e56e71c79, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlobalMaskTexture1:
@@ -298,7 +301,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2dc8d444ae5834a4f8838060f991d43f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -402,7 +405,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RGBMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: be08f88e7e8e1be46a96847e56e71c79, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RedTexture:
@@ -899,12 +902,18 @@ Material:
     - _Decal0ChannelSeparationVertical: 0
     - _Decal0Depth: 0
     - _Decal0FaceMask: 0
-    - _Decal0GlobalMask: 0
+    - _Decal0GlobalMask: 1
     - _Decal0GlobalMaskBlendType: 2
     - _Decal0HueAngleStrength: 0
     - _Decal0MaskChannel: 0
+    - _Decal0OnlyVideo: 0
     - _Decal0OverrideAlphaMode: 0
     - _Decal0TPSMaskStrength: 1
+    - _Decal0UseDecalAlpha: 0
+    - _Decal0VideoAspectFix: 0
+    - _Decal0VideoEmissionStrength: 0
+    - _Decal0VideoEnabled: 0
+    - _Decal0VideoFitToScale: 1
     - _Decal1ApplyGlobalMaskBlendType: 0
     - _Decal1ApplyGlobalMaskIndex: 0
     - _Decal1ChannelSeparation: 0
@@ -918,9 +927,15 @@ Material:
     - _Decal1GlobalMask: 0
     - _Decal1GlobalMaskBlendType: 2
     - _Decal1HueAngleStrength: 0
-    - _Decal1MaskChannel: 1
+    - _Decal1MaskChannel: 0
+    - _Decal1OnlyVideo: 0
     - _Decal1OverrideAlphaMode: 0
     - _Decal1TPSMaskStrength: 1
+    - _Decal1UseDecalAlpha: 0
+    - _Decal1VideoAspectFix: 0
+    - _Decal1VideoEmissionStrength: 0
+    - _Decal1VideoEnabled: 0
+    - _Decal1VideoFitToScale: 1
     - _Decal2ApplyGlobalMaskBlendType: 0
     - _Decal2ApplyGlobalMaskIndex: 0
     - _Decal2ChannelSeparation: 0
@@ -934,9 +949,15 @@ Material:
     - _Decal2GlobalMask: 0
     - _Decal2GlobalMaskBlendType: 2
     - _Decal2HueAngleStrength: 0
-    - _Decal2MaskChannel: 2
+    - _Decal2MaskChannel: 1
+    - _Decal2OnlyVideo: 0
     - _Decal2OverrideAlphaMode: 0
     - _Decal2TPSMaskStrength: 1
+    - _Decal2UseDecalAlpha: 0
+    - _Decal2VideoAspectFix: 0
+    - _Decal2VideoEmissionStrength: 0
+    - _Decal2VideoEnabled: 0
+    - _Decal2VideoFitToScale: 1
     - _Decal3ApplyGlobalMaskBlendType: 0
     - _Decal3ApplyGlobalMaskIndex: 0
     - _Decal3ChannelSeparation: 0
@@ -951,8 +972,15 @@ Material:
     - _Decal3GlobalMaskBlendType: 2
     - _Decal3HueAngleStrength: 0
     - _Decal3MaskChannel: 3
+    - _Decal3OnlyVideo: 0
     - _Decal3OverrideAlphaMode: 0
     - _Decal3TPSMaskStrength: 1
+    - _Decal3TextureToUse: 0
+    - _Decal3UseDecalAlpha: 0
+    - _Decal3VideoAspectFix: 0
+    - _Decal3VideoEmissionStrength: 0
+    - _Decal3VideoEnabled: 0
+    - _Decal3VideoFitToScale: 1
     - _DecalBlendAlpha: 1
     - _DecalBlendAlpha1: 1
     - _DecalBlendAlpha2: 1
@@ -971,7 +999,7 @@ Material:
     - _DecalEmissionStrength3: 0
     - _DecalEnabled: 1
     - _DecalEnabled1: 1
-    - _DecalEnabled2: 0
+    - _DecalEnabled2: 1
     - _DecalEnabled3: 0
     - _DecalHueShift: 0
     - _DecalHueShift1: 0
@@ -990,9 +1018,9 @@ Material:
     - _DecalOverrideAlpha1: 0
     - _DecalOverrideAlpha2: 0
     - _DecalOverrideAlpha3: 0
-    - _DecalRotation: 284
-    - _DecalRotation1: 256
-    - _DecalRotation2: 0
+    - _DecalRotation: 0
+    - _DecalRotation1: 284
+    - _DecalRotation2: 256
     - _DecalRotation3: 0
     - _DecalRotationCTALBand0: 0
     - _DecalRotationCTALBand1: 0
@@ -1014,8 +1042,8 @@ Material:
     - _DecalTexture1UV: 0
     - _DecalTexture2UV: 0
     - _DecalTexture3UV: 0
-    - _DecalTextureUV: 0
-    - _DecalTiled: 0
+    - _DecalTextureUV: 4
+    - _DecalTiled: 1
     - _DecalTiled1: 0
     - _DecalTiled2: 0
     - _DecalTiled3: 0
@@ -1203,6 +1231,10 @@ Material:
     - _EmissionReplace1: 0
     - _EmissionReplace2: 0
     - _EmissionReplace3: 0
+    - _EmissionSaturation: 0
+    - _EmissionSaturation1: 0
+    - _EmissionSaturation2: 0
+    - _EmissionSaturation3: 0
     - _EmissionScrollingOffset: 0
     - _EmissionScrollingOffset1: 0
     - _EmissionScrollingOffset2: 0
@@ -1316,6 +1348,7 @@ Material:
     - _FogHeightScale: 1
     - _FogScale: 1
     - _FogStartOffset: 0
+    - _ForceFlatRampedLightmap: 1
     - _ForgotToLockMaterial: 1
     - _GITDEMaxEmissionMultiplier: 0
     - _GITDEMaxEmissionMultiplier1: 0
@@ -1574,7 +1607,7 @@ Material:
     - _GlobalMaskTexture2UV: 0
     - _GlobalMaskTexture3Split: 0
     - _GlobalMaskTexture3UV: 0
-    - _GlobalMaskTexturesEnable: 0
+    - _GlobalMaskTexturesEnable: 1
     - _GlobalMaskToggleOff_0: 0
     - _GlobalMaskToggleOff_1: 0
     - _GlobalMaskToggleOff_10: 0
@@ -2151,7 +2184,7 @@ Material:
     - _RGBABlueSmoothnessInvert: 0
     - _RGBAGreenBlendType: 0
     - _RGBAGreenEmissionStrength: 0
-    - _RGBAGreenEnable: 0
+    - _RGBAGreenEnable: 1
     - _RGBAGreenMetallicInvert: 0
     - _RGBAGreenPBRSplitMaskSample: 0
     - _RGBAGreenPBRSplitMaskStochastic: 0
@@ -2165,7 +2198,7 @@ Material:
     - _RGBAPBRRedEnabled: 0
     - _RGBARedBlendType: 0
     - _RGBARedEmissionStrength: 0
-    - _RGBARedEnable: 0
+    - _RGBARedEnable: 1
     - _RGBARedMetallicInvert: 0
     - _RGBARedPBRSplitMaskSample: 0
     - _RGBARedPBRSplitMaskStochastic: 0
@@ -2173,7 +2206,7 @@ Material:
     - _RGBARedSmoothnessInvert: 0
     - _RGBASmoothnessMapsStochastic: 0
     - _RGBASmoothnessMapsUV: 0
-    - _RGBMaskEnabled: 0
+    - _RGBMaskEnabled: 1
     - _RGBMaskType: 0
     - _RGBMaskUV: 0
     - _RedAlphaAdd: 0
@@ -2741,7 +2774,7 @@ Material:
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 1
     - m_mainCategory: 1
-    - m_modifierCategory: 0
+    - m_modifierCategory: 1
     - m_renderingCategory: 1
     - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
@@ -2760,7 +2793,7 @@ Material:
     - m_start_Decal0AudioLink: 0
     - m_start_Decal1: 1
     - m_start_Decal1AudioLink: 0
-    - m_start_Decal2: 0
+    - m_start_Decal2: 1
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
@@ -2771,7 +2804,7 @@ Material:
     - m_start_FXProximityColor: 0
     - m_start_FlipbookAudioLink: 0
     - m_start_Gameboy: 0
-    - m_start_GlobalMask: 0
+    - m_start_GlobalMask: 1
     - m_start_GlobalMaskDistanceM_0: 0
     - m_start_GlobalMaskDistanceM_1: 0
     - m_start_GlobalMaskDistanceM_10: 0
@@ -2794,7 +2827,7 @@ Material:
     - m_start_GlobalMaskModifiersDistance: 0
     - m_start_GlobalMaskModifiersMirror: 0
     - m_start_GlobalMaskOptions: 0
-    - m_start_GlobalMaskTextures: 0
+    - m_start_GlobalMaskTextures: 1
     - m_start_GlobalMaskVertexColors: 0
     - m_start_GlobalThemeColor0: 0
     - m_start_GlobalThemeColor1: 0
@@ -2812,12 +2845,12 @@ Material:
     - m_start_OutlineStencilPassFrontOptions: 0
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiGlobalCategory: 0
+    - m_start_PoiGlobalCategory: 1
     - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 0
     - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
-    - m_start_RGBMask: 0
+    - m_start_RGBMask: 1
     - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
     - m_start_SphericalDissolve: 0
@@ -2909,15 +2942,19 @@ Material:
     - s_end_Decal0ChannelSeparation: 0
     - s_end_Decal0GlobalMasking: 0
     - s_end_Decal0HueShift: 0
+    - s_end_Decal0Video: 0
     - s_end_Decal1ChannelSeparation: 0
     - s_end_Decal1GlobalMasking: 0
     - s_end_Decal1HueShift: 0
+    - s_end_Decal1Video: 0
     - s_end_Decal2ChannelSeparation: 0
     - s_end_Decal2GlobalMasking: 0
     - s_end_Decal2HueShift: 0
+    - s_end_Decal2Video: 0
     - s_end_Decal3ChannelSeparation: 0
     - s_end_Decal3GlobalMasking: 0
     - s_end_Decal3HueShift: 0
+    - s_end_Decal3Video: 0
     - s_end_DecalTPSMaskGroup: 0
     - s_end_DepthAlpha: 0
     - s_end_DepthFXColorEmission: 0
@@ -3101,15 +3138,19 @@ Material:
     - s_start_Decal0ChannelSeparation: 0
     - s_start_Decal0GlobalMasking: 0
     - s_start_Decal0HueShift: 0
+    - s_start_Decal0Video: 0
     - s_start_Decal1ChannelSeparation: 0
     - s_start_Decal1GlobalMasking: 0
     - s_start_Decal1HueShift: 0
+    - s_start_Decal1Video: 0
     - s_start_Decal2ChannelSeparation: 0
     - s_start_Decal2GlobalMasking: 0
     - s_start_Decal2HueShift: 0
+    - s_start_Decal2Video: 0
     - s_start_Decal3ChannelSeparation: 0
     - s_start_Decal3GlobalMasking: 0
     - s_start_Decal3HueShift: 0
+    - s_start_Decal3Video: 0
     - s_start_DecalTPSMaskGroup: 0
     - s_start_DepthAlpha: 0
     - s_start_DepthFXColorEmission: 0
@@ -3219,8 +3260,8 @@ Material:
     - s_start_Positioning: 1
     - s_start_RGBAlpha: 0
     - s_start_RGBBlue: 0
-    - s_start_RGBGreen: 0
-    - s_start_RGBRed: 0
+    - s_start_RGBGreen: 1
+    - s_start_RGBRed: 1
     - s_start_RimLight0Color: 1
     - s_start_RimLight0GlobalMasking: 0
     - s_start_RimLight0HueShift: 0
@@ -3380,18 +3421,18 @@ Material:
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotationPan: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalColor: {r: 0, g: 0, b: 0, a: 1}
+    - _DecalColor: {r: 1, g: 0.7413856, b: 0.5215633, a: 1}
     - _DecalColor1: {r: 0, g: 0, b: 0, a: 1}
-    - _DecalColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalColor2: {r: 0, g: 0, b: 0, a: 1}
     - _DecalColor3: {r: 1, g: 1, b: 1, a: 1}
     - _DecalMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalPosition: {r: 0.25625744, g: 0.503492, b: 0, a: 0}
-    - _DecalPosition1: {r: 0.393, g: 0.05824404, b: 0, a: 0}
-    - _DecalPosition2: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DecalPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DecalPosition1: {r: 0.25625744, g: 0.503492, b: 0, a: 0}
+    - _DecalPosition2: {r: 0.393, g: 0.05824404, b: 0, a: 0}
     - _DecalPosition3: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _DecalScale: {r: 0.04, g: 0.04, b: 1, a: 0}
+    - _DecalScale: {r: 0.5, g: 0.5, b: 1, a: 0}
     - _DecalScale1: {r: 0.04, g: 0.04, b: 1, a: 0}
-    - _DecalScale2: {r: 1, g: 1, b: 1, a: 0}
+    - _DecalScale2: {r: 0.04, g: 0.04, b: 1, a: 0}
     - _DecalScale3: {r: 1, g: 1, b: 1, a: 0}
     - _DecalSideOffset: {r: 0, g: 0, b: 0, a: 0}
     - _DecalSideOffset1: {r: 0, g: 0, b: 0, a: 0}
@@ -3618,7 +3659,7 @@ Material:
     - _RGBARedPBRMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _RGBASmoothnessMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _RGBMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _RedColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RedColor: {r: 0.34901962, g: 0.27058825, b: 0.20392157, a: 1}
     - _RedTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalAPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalBPan: {r: 0, g: 0, b: 0, a: 0}
