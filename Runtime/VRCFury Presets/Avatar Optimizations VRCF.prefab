@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3760308056936223491}
   - component: {fileID: -8134769062835651707}
-  - component: {fileID: 3906264030571341496}
   - component: {fileID: 5218954289805191160}
   - component: {fileID: 3341415660705943030}
   - component: {fileID: 162093856198377689}
@@ -49,8 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.811.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.975.0
   somethingIsBroken: 0
   config:
     features: []
@@ -61,33 +60,6 @@ MonoBehaviour:
     RefIds:
     - rid: 5949029867649761280
       type: {class: AnchorOverrideFix2, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 0
---- !u!114 &3906264030571341496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7857386946168166976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.811.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 5949029867649761282
-  references:
-    version: 2
-    RefIds:
-    - rid: 5949029867649761282
-      type: {class: BoundingBoxFix2, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
 --- !u!114 &5218954289805191160
@@ -103,8 +75,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.811.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.975.0
   somethingIsBroken: 0
   config:
     features: []
@@ -131,8 +103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.811.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.975.0
   somethingIsBroken: 0
   config:
     features: []
@@ -159,8 +131,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.811.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.975.0
   somethingIsBroken: 0
   config:
     features: []

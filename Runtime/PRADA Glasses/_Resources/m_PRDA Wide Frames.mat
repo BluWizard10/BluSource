@@ -301,7 +301,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4e569edae5e1a0a49826bdaf6df985c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -981,7 +981,7 @@ Material:
     - _Decal3VideoEmissionStrength: 0
     - _Decal3VideoEnabled: 0
     - _Decal3VideoFitToScale: 1
-    - _DecalBlendAlpha: 1
+    - _DecalBlendAlpha: 0
     - _DecalBlendAlpha1: 1
     - _DecalBlendAlpha2: 1
     - _DecalBlendAlpha3: 1
@@ -2198,7 +2198,7 @@ Material:
     - _RGBAPBRRedEnabled: 0
     - _RGBARedBlendType: 0
     - _RGBARedEmissionStrength: 0
-    - _RGBARedEnable: 1
+    - _RGBARedEnable: 0
     - _RGBARedMetallicInvert: 0
     - _RGBARedPBRSplitMaskSample: 0
     - _RGBARedPBRSplitMaskStochastic: 0
@@ -3261,7 +3261,7 @@ Material:
     - s_start_RGBAlpha: 0
     - s_start_RGBBlue: 0
     - s_start_RGBGreen: 1
-    - s_start_RGBRed: 1
+    - s_start_RGBRed: 0
     - s_start_RimLight0Color: 1
     - s_start_RimLight0GlobalMasking: 0
     - s_start_RimLight0HueShift: 0
