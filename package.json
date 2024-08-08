@@ -1,10 +1,11 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard LABS - Source",
-  "version": "1.10.0-dev",
+  "version": "1.20.0",
   "unity": "2022.3",
-  "description": "BluWizard's Private Package of Esssential Stuff and Gimmicks that Blu uses across their projects.",
+  "description": "BluWizard's Package of Esssential Stuff and Gimmicks that Blu uses across their Projects. You will find some interesting and possibly useless gimmicks in here.",
   "url": "https://github.com/BluWizard10/BluSource.git",
+  "hideInEditor": false,
   "gitDependencies": {},
   "vpmDependencies": {},
   "author": {
