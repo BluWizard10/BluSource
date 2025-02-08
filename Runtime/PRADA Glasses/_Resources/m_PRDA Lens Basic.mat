@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: m_PRDA Lens Basic
-  m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
+  m_Shader: {fileID: 4800000, guid: cef5dc16b30fdbb46b08ab424d41d1c0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -33,7 +33,6 @@ Material:
       _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: 23f6705aff8bf964c87bfb3dd66ab345
-    RenderType: Transparent
     VRCFallback: Hidden
     _LTCGI_AnimToggleAnimated: 1
   disabledShaderPasses: []
@@ -289,6 +288,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LightDataSDFMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _LightingAOMaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -433,6 +436,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ReflectionColorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RgbNormalA:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -518,6 +529,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SkinThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -642,6 +657,7 @@ Material:
     - _AlphaFresnelWidth: 0.5
     - _AlphaGlobalMask: 0
     - _AlphaGlobalMaskBlendType: 2
+    - _AlphaMaskBlendStrength: 1
     - _AlphaMaskInvert: 0
     - _AlphaMaskScale: 1
     - _AlphaMaskUV: 0
@@ -688,6 +704,9 @@ Material:
     - _Ap_Rim2Light_Power: 0.1
     - _Ap_RimLight_FeatherOff: 0
     - _Ap_RimLight_Power: 0.1
+    - _ApplyReflection: 0
+    - _ApplySpecular: 1
+    - _ApplySpecularFA: 1
     - _AudioLinkAnimToggle: 1
     - _AudioLinkBandOverridesEnabled: 0
     - _AudioLinkDecal0AlphaBand: 0
@@ -794,12 +813,14 @@ Material:
     - _BackFaceEmissionLimiter: 1
     - _BackFaceEmissionStrength: 0
     - _BackFaceEnabled: 0
+    - _BackFaceHueSelectOrShift: 1
     - _BackFaceHueShift: 0
     - _BackFaceHueShiftEnabled: 0
     - _BackFaceHueShiftSpeed: 0
     - _BackFaceMaskChannel: 0
     - _BackFaceMaskUV: 0
     - _BackFaceReplaceAlpha: 0
+    - _BackFaceShiftColorSpace: 0
     - _BackFaceTextureUV: 0
     - _BacklightBackfaceMask: 1
     - _BacklightBlur: 0.05
@@ -891,7 +912,9 @@ Material:
     - _CubeMapContrast: 0
     - _CubeMapEmissionStrength: 0
     - _CubeMapEnabled: 0
+    - _CubeMapHueSelectOrShift: 1
     - _CubeMapHueShift: 0
+    - _CubeMapHueShiftColorSpace: 0
     - _CubeMapHueShiftEnabled: 0
     - _CubeMapHueShiftSpeed: 0
     - _CubeMapIntensity: 1
@@ -1026,15 +1049,27 @@ Material:
     - _DecalHueShift1: 0
     - _DecalHueShift2: 0
     - _DecalHueShift3: 0
+    - _DecalHueShiftColorSpace: 0
+    - _DecalHueShiftColorSpace1: 0
+    - _DecalHueShiftColorSpace2: 0
+    - _DecalHueShiftColorSpace3: 0
     - _DecalHueShiftEnabled: 0
     - _DecalHueShiftEnabled1: 0
     - _DecalHueShiftEnabled2: 0
     - _DecalHueShiftEnabled3: 0
+    - _DecalHueShiftSelectOrShift: 1
+    - _DecalHueShiftSelectOrShift1: 1
+    - _DecalHueShiftSelectOrShift2: 1
+    - _DecalHueShiftSelectOrShift3: 1
     - _DecalHueShiftSpeed: 0
     - _DecalHueShiftSpeed1: 0
     - _DecalHueShiftSpeed2: 0
     - _DecalHueShiftSpeed3: 0
     - _DecalMaskUV: 0
+    - _DecalMirroredUVMode: 0
+    - _DecalMirroredUVMode1: 0
+    - _DecalMirroredUVMode2: 0
+    - _DecalMirroredUVMode3: 0
     - _DecalOverrideAlpha: 0
     - _DecalOverrideAlpha1: 0
     - _DecalOverrideAlpha2: 0
@@ -1059,6 +1094,10 @@ Material:
     - _DecalRotationSpeed1: 0
     - _DecalRotationSpeed2: 0
     - _DecalRotationSpeed3: 0
+    - _DecalSymmetryMode: 0
+    - _DecalSymmetryMode1: 0
+    - _DecalSymmetryMode2: 0
+    - _DecalSymmetryMode3: 0
     - _DecalTPSDepthMaskEnabled: 0
     - _DecalTexture1UV: 0
     - _DecalTexture2UV: 0
@@ -1141,11 +1180,15 @@ Material:
     - _DissolveEdgeColorThemeIndex: 0
     - _DissolveEdgeEmission: 0
     - _DissolveEdgeHardness: 0.5
+    - _DissolveEdgeHueSelectOrShift: 1
     - _DissolveEdgeHueShift: 0
+    - _DissolveEdgeHueShiftColorSpace: 0
     - _DissolveEdgeHueShiftEnabled: 0
     - _DissolveEdgeHueShiftSpeed: 0
     - _DissolveEdgeWidth: 0.025
+    - _DissolveHueSelectOrShift: 1
     - _DissolveHueShift: 0
+    - _DissolveHueShiftColorSpace: 0
     - _DissolveHueShiftEnabled: 0
     - _DissolveHueShiftSpeed: 0
     - _DissolveInverseApplyGlobalMaskBlendType: 0
@@ -1212,10 +1255,18 @@ Material:
     - _EmissionColor2ThemeIndex: 0
     - _EmissionColor3ThemeIndex: 0
     - _EmissionColorThemeIndex: 0
+    - _EmissionHueSelectOrShift: 1
+    - _EmissionHueSelectOrShift1: 1
+    - _EmissionHueSelectOrShift2: 1
+    - _EmissionHueSelectOrShift3: 1
     - _EmissionHueShift: 0
     - _EmissionHueShift1: 0
     - _EmissionHueShift2: 0
     - _EmissionHueShift3: 0
+    - _EmissionHueShiftColorSpace: 0
+    - _EmissionHueShiftColorSpace1: 0
+    - _EmissionHueShiftColorSpace2: 0
+    - _EmissionHueShiftColorSpace3: 0
     - _EmissionHueShiftEnabled: 0
     - _EmissionHueShiftEnabled1: 0
     - _EmissionHueShiftEnabled2: 0
@@ -1349,7 +1400,9 @@ Material:
     - _FlipbookEndFrame: 0
     - _FlipbookFPS: 30
     - _FlipbookFrameOffset: 0
+    - _FlipbookHueSelectOrShift: 1
     - _FlipbookHueShift: 0
+    - _FlipbookHueShiftColorSpace: 0
     - _FlipbookHueShiftEnabled: 0
     - _FlipbookHueShiftSpeed: 0
     - _FlipbookIntensityControlsAlpha: 0
@@ -1391,6 +1444,8 @@ Material:
     - _GITDEWorldOrMesh1: 0
     - _GITDEWorldOrMesh2: 0
     - _GITDEWorldOrMesh3: 0
+    - _GSAAStrength: 0
+    - _GlitteHueShiftColorSpace: 0
     - _GlitterALAlphaAddBand: 0
     - _GlitterALChronoRotationSpeed: 0
     - _GlitterALChronoRotationSpeedBand: 0
@@ -1412,7 +1467,9 @@ Material:
     - _GlitterEnable: 0
     - _GlitterFrequency: 300
     - _GlitterHideInShadow: 0
+    - _GlitterHueSelectOrShift: 1
     - _GlitterHueShift: 0
+    - _GlitterHueShiftColorSpace: 0
     - _GlitterHueShiftEnabled: 0
     - _GlitterHueShiftSpeed: 0
     - _GlitterJaggyFix: 0
@@ -1733,6 +1790,9 @@ Material:
     - _LightDataDebugEnabled: 0
     - _LightDataDetailShadowGlobalMaskBlendTypeR: 2
     - _LightDataDetailShadowGlobalMaskR: 0
+    - _LightDataSDFBlendY: 1
+    - _LightDataSDFMapLOD: 0
+    - _LightDataSDFMapUV: 0
     - _LightDataShadowMaskGlobalMaskBlendTypeR: 2
     - _LightDataShadowMaskGlobalMaskR: 0
     - _LightDirection_MaskOn: 0
@@ -1794,15 +1854,19 @@ Material:
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
     - _MainColorAdjustToggle: 0
+    - _MainGammma: 1
     - _MainGradationStrength: 0
     - _MainHueALCTEnabled: 0
     - _MainHueALMotionSpeed: 1
     - _MainHueGlobalMask: 0
     - _MainHueGlobalMaskBlendType: 2
     - _MainHueShift: 0
+    - _MainHueShiftColorSpace: 0
     - _MainHueShiftReplace: 1
+    - _MainHueShiftSelectOrShift: 1
     - _MainHueShiftSpeed: 0
     - _MainHueShiftToggle: 0
+    - _MainIgnoreTexAlpha: 0
     - _MainPixelMode: 0
     - _MainSaturationGlobalMask: 0
     - _MainSaturationGlobalMaskBlendType: 2
@@ -1852,7 +1916,9 @@ Material:
     - _Matcap2CustomNormal: 0
     - _Matcap2EmissionStrength: 0
     - _Matcap2Enable: 0
+    - _Matcap2HueSelectOrShift: 1
     - _Matcap2HueShift: 0
+    - _Matcap2HueShiftColorSpace: 0
     - _Matcap2HueShiftEnabled: 0
     - _Matcap2HueShiftSpeed: 0
     - _Matcap2Intensity: 1
@@ -1898,7 +1964,9 @@ Material:
     - _Matcap3CustomNormal: 0
     - _Matcap3EmissionStrength: 0
     - _Matcap3Enable: 0
+    - _Matcap3HueSelectOrShift: 1
     - _Matcap3HueShift: 0
+    - _Matcap3HueShiftColorSpace: 0
     - _Matcap3HueShiftEnabled: 0
     - _Matcap3HueShiftSpeed: 0
     - _Matcap3Intensity: 1
@@ -1936,7 +2004,9 @@ Material:
     - _Matcap4ColorThemeIndex: 0
     - _Matcap4EmissionStrength: 0
     - _Matcap4Enable: 0
+    - _Matcap4HueSelectOrShift: 1
     - _Matcap4HueShift: 0
+    - _Matcap4HueShiftColorSpace: 0
     - _Matcap4HueShiftEnabled: 0
     - _Matcap4HueShiftSpeed: 0
     - _Matcap4Intensity: 1
@@ -1972,7 +2042,9 @@ Material:
     - _MatcapColorThemeIndex: 0
     - _MatcapEmissionStrength: 0
     - _MatcapEnable: 0
+    - _MatcapHueSelectOrShift: 1
     - _MatcapHueShift: 0
+    - _MatcapHueShiftColorSpace: 0
     - _MatcapHueShiftEnabled: 0
     - _MatcapHueShiftSpeed: 0
     - _MatcapIntensity: 1
@@ -2094,6 +2166,7 @@ Material:
     - _OutlineVertexColorMask: 0
     - _OutlineVertexColorMaskStrength: 1
     - _OutlineZTest: 4
+    - _OutlineZWrite: 1
     - _OutlinesMaxDistance: 1
     - _PBRNormalSelect: 1
     - _PBRSplitMaskSample: 0
@@ -2105,6 +2178,7 @@ Material:
     - _PPHDR: 0
     - _PPHelp: 0
     - _PPHue: 0
+    - _PPHueShiftColorSpace: 0
     - _PPLightingAddition: 0
     - _PPLightingMultiplier: 1
     - _PPLightness: 0
@@ -2119,7 +2193,9 @@ Material:
     - _ParallaxInternalBlendMode: 0
     - _ParallaxInternalHeightFromAlpha: 0
     - _ParallaxInternalHeightmapMode: 0
+    - _ParallaxInternalHueSelectOrShift: 1
     - _ParallaxInternalHueShift: 0
+    - _ParallaxInternalHueShiftColorSpace: 0
     - _ParallaxInternalHueShiftEnabled: 0
     - _ParallaxInternalHueShiftPerLevel: 0
     - _ParallaxInternalHueShiftSpeed: 0
@@ -2241,7 +2317,14 @@ Material:
     - _RedTextureStochastic: 0
     - _RedTextureUV: 0
     - _RefSpecFresnel: 1
+    - _RefSpecFresnelAlpha: 1
     - _RefSpecFresnelBack: 1
+    - _Reflectance: 0.04
+    - _ReflectionApplyTransparency: 1
+    - _ReflectionBlendMode: 1
+    - _ReflectionCubeEnableLighting: 1
+    - _ReflectionCubeOverride: 0
+    - _ReflectionNormalStrength: 1
     - _RenderingEarlyZEnabled: 0
     - _RenderingReduceClipDistance: 0
     - _RgbAlphaGlobalMaskBlendType: 2
@@ -2304,7 +2387,9 @@ Material:
     - _Rim2FresnelPower: 3.5
     - _Rim2GlobalMask: 0
     - _Rim2GlobalMaskBlendType: 2
+    - _Rim2HueSelectOrShift: 1
     - _Rim2HueShift: 0
+    - _Rim2HueShiftColorSpace: 0
     - _Rim2HueShiftEnabled: 0
     - _Rim2HueShiftSpeed: 0
     - _Rim2IndirBlur: 0.1
@@ -2360,7 +2445,9 @@ Material:
     - _RimFresnelPower: 3.5
     - _RimGlobalMask: 0
     - _RimGlobalMaskBlendType: 2
+    - _RimHueSelectOrShift: 1
     - _RimHueShift: 0
+    - _RimHueShiftColorSpace: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
     - _RimIndirBlur: 0.1
@@ -2437,6 +2524,7 @@ Material:
     - _ShadowBorderMaskUV: 0
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
+    - _ShadowEnvStrength: 0
     - _ShadowMainStrength: 0
     - _ShadowOffset: 0
     - _ShadowPostAO: 0
@@ -2445,9 +2533,14 @@ Material:
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _Specular2ndLayer: 0
+    - _SpecularBlur: 0
+    - _SpecularBorder: 0.5
     - _SpecularHighlights: 1
+    - _SpecularNormalStrength: 1
+    - _SpecularToon: 1
     - _SphericalDissolveClamp: 0
     - _SphericalDissolveInvert: 0
     - _SphericalDissolveRadius: 1.5
@@ -2478,11 +2571,14 @@ Material:
     - _StochasticHexGridDensity: 1
     - _StochasticHexRotationStrength: 0
     - _StochasticMode: 0
+    - _StylizedReflectionMode: 0
     - _StylizedSpecular: 0
     - _StylizedSpecular2Feather: 0
     - _StylizedSpecularFeather: 0
     - _StylizedSpecularIgnoreNormal: 0
     - _StylizedSpecularIgnoreShadow: 0
+    - _StylizedSpecularInvertMask: 0
+    - _StylizedSpecularNormalStrength: 1
     - _StylizedSpecularStrength: 1
     - _SubsurfaceScattering: 0
     - _TextEnabled: 0
@@ -2563,6 +2659,7 @@ Material:
     - _UVTileDissolveUV: 0
     - _Unlit_Intensity: 1
     - _UseLightColor: 1
+    - _UseReflection: 0
     - _Use_1stAs2nd: 0
     - _Use_1stShadeMapAlpha_As_ShadowMask: 0
     - _Use_2ndShadeMapAlpha_As_ShadowMask: 0
@@ -2655,8 +2752,10 @@ Material:
     - _VoronoiScale: 5
     - _VoronoiSpace: 0
     - _VoronoiType: 1
+    - _ZClip: 1
     - _ZTest: 4
     - _ZWrite: 0
+    - _ppHueSelectOrShift: 1
     - footer_discord: 0
     - footer_github: 0
     - footer_patreon: 0
@@ -3042,6 +3141,7 @@ Material:
     - s_end_LightDataAddPass: 1
     - s_end_LightDataBasePass: 1
     - s_end_LightDataDebug: 0
+    - s_end_LightDataSDF: 1
     - s_end_LocalRotation: 0
     - s_end_LocalTranslation: 0
     - s_end_MainHueShift: 0
@@ -3111,6 +3211,10 @@ Material:
     - s_end_ScrollingEmission0: 0
     - s_end_ShadingAddPass: 0
     - s_end_ShadingGlobalMask: 0
+    - s_end_StylizedReflectionLilEnviroReflections: 1
+    - s_end_StylizedReflectionLilSpecular: 1
+    - s_end_StylizedReflectionMode0: 1
+    - s_end_StylizedReflectionMode1: 1
     - s_end_StylizedSpecularAdvanced: 0
     - s_end_StylizedSpecularLayer0: 0
     - s_end_StylizedSpecularLayer1: 0
@@ -3238,6 +3342,7 @@ Material:
     - s_start_LightDataAddPass: 1
     - s_start_LightDataBasePass: 1
     - s_start_LightDataDebug: 0
+    - s_start_LightDataSDF: 1
     - s_start_LocalRotation: 0
     - s_start_LocalTranslation: 0
     - s_start_MainHueShift: 1
@@ -3307,6 +3412,10 @@ Material:
     - s_start_ScrollingEmission0: 0
     - s_start_ShadingAddPass: 1
     - s_start_ShadingGlobalMask: 0
+    - s_start_StylizedReflectionLilEnviroReflections: 1
+    - s_start_StylizedReflectionLilSpecular: 1
+    - s_start_StylizedReflectionMode0: 1
+    - s_start_StylizedReflectionMode1: 1
     - s_start_StylizedSpecularAdvanced: 0
     - s_start_StylizedSpecularLayer0: 1
     - s_start_StylizedSpecularLayer1: 1
@@ -3522,6 +3631,7 @@ Material:
     - _FlipbookColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlipbookCrossfadeRange: {r: 0.75, g: 1, b: 0, a: 1}
     - _FlipbookMaskPan: {r: 0, g: 0, b: 0, a: 0}
+    - _FlipbookPanning: {r: 0, g: 0, b: 0, a: 1}
     - _FlipbookScaleOffset: {r: 1, g: 1, b: 0, a: 0}
     - _FlipbookSideOffset: {r: 0, g: 0, b: 0, a: 0}
     - _FlipbookTexArrayPan: {r: 0, g: 0, b: 0, a: 0}
@@ -3592,6 +3702,7 @@ Material:
     - _HighColor_TexPan: {r: 0, g: 0, b: 0, a: 0}
     - _LTCGI_DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
     - _LTCGI_SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDataSDFMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingAOMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingDetailShadowMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingForcedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3691,6 +3802,8 @@ Material:
     - _RGBMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RedColor: {r: 1, g: 1, b: 1, a: 1}
     - _RedTexturePan: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectionCubeColor: {r: 0, g: 0, b: 0, a: 1}
     - _RgbNormalAPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalBPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalGPan: {r: 0, g: 0, b: 0, a: 0}
