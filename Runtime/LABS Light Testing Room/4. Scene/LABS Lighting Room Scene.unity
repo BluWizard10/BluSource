@@ -125,6 +125,74 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &129447989
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.12704861
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f9921b8b24f4fd48a3fc3dd81570b69,
+        type: 3}
+      propertyPath: m_Name
+      value: PRADA Glasses Optimized
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f9921b8b24f4fd48a3fc3dd81570b69, type: 3}
 --- !u!1 &262376183
 GameObject:
   m_ObjectHideFlags: 1
@@ -177,6 +245,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 101231614259857526, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210321975226526154, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270271167232798392, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2864549386790343227, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171949622108887880, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964851093402532509, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534765535913846795, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576956552450833975, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4637279767408447944, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -232,6 +340,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: LABS Room Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5471638203180036597, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856638163288906635, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246573526293052177, guid: bad7e0379bc33f6458b189a6b0f4b8f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -243,3 +366,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 2174606349623356972}
   - {fileID: 262376185}
+  - {fileID: 129447989}
