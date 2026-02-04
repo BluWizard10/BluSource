@@ -29,13 +29,13 @@ jobs:
           echo "zipFile=${{ env.packageName }}-${{ steps.version.outputs.prop }}".zip >> $GITHUB_ENV
           echo "unityPackage=${{ env.packageName }}-${{ steps.version.outputs.prop }}.unitypackage" >> $GITHUB_ENV
           
-      - run: find . -name "*.meta" >> metaList
+      - run: find . -name "*.meta" >> .metaList
 
       - name: Create UnityPackage
         uses: pCYSl5EDgo/create-unitypackage@cfcd3cf0391a5ef1306342794866a9897c32af0b
         with:
           package-path: ${{ env.unityPackage }}
-          include-files: metaList
+          include-files: .metaList
 
       # Exclude VCS & CI folders
       - name: Create Zip (exclude .git & .github)
