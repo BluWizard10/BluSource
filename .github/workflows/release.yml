@@ -21,8 +21,8 @@ jobs:
         id: version
         uses: notiz-dev/github-action-json-property@7c8cf5cc36eb85d8d287a8086a39dac59628eb31
         with: 
-            path: "package.json"
-            prop_path: "version"
+          path: "package.json"
+          prop_path: "version"
     
       - name: Set Environment Variables
         run: |
@@ -34,16 +34,25 @@ jobs:
         with:
           type: "zip"
           directory: "."
-          filename: "${{env.zipFile}}" # make the zip file two directories up, since we start two directories in above
+          filename: "${{ env.zipFile }}" # make the zip file two directories up, since we start two directories in above
           
       - run: find . -name "*.meta" >> metaList
-          
+
       - name: Create UnityPackage
         uses: pCYSl5EDgo/create-unitypackage@cfcd3cf0391a5ef1306342794866a9897c32af0b
         with:
           package-path: ${{ env.unityPackage }}
           include-files: metaList
-        
+
+      # Exclude VCS & CI folders
+      - name: Create Zip (exclude .git & .github)
+        shell: bash
+        run: |
+          rm -f "${{ env.zipFile }}"
+          zip -r "${{ env.zipFile }}" . \
+            -x  ".git/*" ".git" "*/.github/*" \
+                ".github/*" ".github" "*/.github/*" \
+                ".gitignore" ".gitattributes" ".gitmodules"
         
       - name: Make Release
         uses: softprops/action-gh-release@1e07f4398721186383de40550babbdf2b84acfc5
