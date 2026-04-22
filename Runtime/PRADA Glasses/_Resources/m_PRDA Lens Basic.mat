@@ -17,6 +17,7 @@ Material:
   - POI_CLEARCOAT
   - POI_ENVIRORIM
   - POI_LTCGI
+  - POI_MATCAP0
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_REALISTIC
   - _RIM2STYLE_POIYOMI
@@ -323,7 +324,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2991acacbc161664bb65fc27745166ed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap0NormalMap:
@@ -681,7 +682,7 @@ Material:
     - _AlphaMaskUV: 0
     - _AlphaMaskValue: 0
     - _AlphaMipScale: 0.25
-    - _AlphaMod: 0
+    - _AlphaMod: -0.9
     - _AlphaPremultiply: 1
     - _AlphaSharpenedA2C: 0
     - _AlphaTextureStochastic: 0
@@ -1838,14 +1839,14 @@ Material:
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
     - _LightingAdditiveLimit: 1
-    - _LightingAdditiveLimited: 0
-    - _LightingAdditiveMonochromatic: 0
-    - _LightingAdditivePassthrough: 0
+    - _LightingAdditiveLimited: 1
+    - _LightingAdditiveMonochromatic: 0.1
+    - _LightingAdditivePassthrough: 0.245
     - _LightingAdditiveType: 0
     - _LightingCap: 1
-    - _LightingCapEnabled: 0
+    - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
-    - _LightingColorMode: 1
+    - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
@@ -1861,10 +1862,10 @@ Material:
     - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0
+    - _LightingMinLightBrightness: 0.015
     - _LightingMirrorVertexLightingEnabled: 0
     - _LightingMode: 6
-    - _LightingMonochromatic: 0
+    - _LightingMonochromatic: 0.1
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
     - _LightingShadowMaskStrengthB: 0
@@ -2098,7 +2099,7 @@ Material:
     - _Matcap4TPSMaskStrength: 1
     - _Matcap4UVMode: 1
     - _Matcap4UVToBlend: 1
-    - _MatcapAdd: 0
+    - _MatcapAdd: 1
     - _MatcapAddToLight: 0
     - _MatcapAlphaOverride: 0
     - _MatcapApplyToAlphaBlendType: 0
@@ -2106,10 +2107,10 @@ Material:
     - _MatcapApplyToAlphaEnabled: 0
     - _MatcapApplyToAlphaSourceBlend: 0
     - _MatcapBaseColorMix: 0
-    - _MatcapBorder: 0.43
+    - _MatcapBorder: 0.5
     - _MatcapColorThemeIndex: 0
     - _MatcapEmissionStrength: 0
-    - _MatcapEnable: 0
+    - _MatcapEnable: 1
     - _MatcapHueSelectOrShift: 1
     - _MatcapHueShift: 0
     - _MatcapHueShiftColorSpace: 0
@@ -2128,13 +2129,13 @@ Material:
     - _MatcapMixed: 0
     - _MatcapMultiply: 0
     - _MatcapNormal: 1
-    - _MatcapReplace: 1
-    - _MatcapRotation: 0
+    - _MatcapReplace: 0
+    - _MatcapRotation: 0.333
     - _MatcapScreen: 0
     - _MatcapSmoothness: 1
     - _MatcapTPSDepthEnabled: 0
     - _MatcapTPSMaskStrength: 1
-    - _MatcapUVMode: 1
+    - _MatcapUVMode: 0
     - _MatcapUVToBlend: 1
     - _Metallic: 0
     - _Mirror: 0
@@ -2169,7 +2170,7 @@ Material:
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
     - _MochieSpecularMaskInvert: 0
-    - _MochieSpecularStrength: 0.77
+    - _MochieSpecularStrength: 1
     - _MochieSpecularStrength2: 1
     - _MochieSpecularStrengthGlobalMask: 0
     - _MochieSpecularStrengthGlobalMaskBlendType: 2
@@ -3084,7 +3085,7 @@ Material:
     - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
-    - m_start_Alpha: 0
+    - m_start_Alpha: 1
     - m_start_Aniso: 0
     - m_start_BeatsaberBloomFog: 0
     - m_start_BeatsaberOptions: 0
@@ -3195,7 +3196,7 @@ Material:
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
-    - m_start_matcap: 0
+    - m_start_matcap: 1
     - m_start_mirrorOptions: 0
     - m_start_normalCorrect: 0
     - m_start_outlineAlphaBlending: 0
@@ -3465,7 +3466,7 @@ Material:
     - s_start_ALVertexGlitching: 0
     - s_start_ALVertexHeight: 0
     - s_start_ALVertexLookAtAL: 0
-    - s_start_AlphaAdvanced: 0
+    - s_start_AlphaAdvanced: 1
     - s_start_AlphaAngular: 0
     - s_start_AlphaDistanceFade: 0
     - s_start_AlphaDithering: 0
@@ -3795,7 +3796,7 @@ Material:
     - _ClearCoatReflectionTint: {r: 0.61960787, g: 0.99607843, b: 1, a: 1}
     - _ClearCoatSpecularTint: {r: 0.8509804, g: 0.90588236, b: 0.90588236, a: 1}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -3946,7 +3947,7 @@ Material:
     - _LightingAOMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingDetailShadowMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingForcedColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LightingShadowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightingShadowColor: {r: 0.39215687, g: 0, b: 0.21960784, a: 1}
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingWrappedColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}

@@ -1,7 +1,7 @@
 {
   "name": "net.bluwizard.source",
   "displayName": "BluWizard LABS - Source",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "unity": "2022.3",
   "description": "BluWizard's Package of Esssential Stuff and Gimmicks that Blu uses across their Projects. You will find some interesting and possibly useless gimmicks in here.",
   "url": "https://github.com/BluWizard10/BluSource.git",
@@ -14,8 +14,8 @@
     "url": "https://bluwizard.net"
   },
   "dependencies": {
-    "com.unity.postprocessing": "3.2.2",
-    "com.unity.textmeshpro": "3.0.6"
+    "com.unity.postprocessing": "3.4.0",
+    "com.unity.textmeshpro": "3.0.9"
   },
   "legacyPackages": [
     "com.bluwizard.sdk"
